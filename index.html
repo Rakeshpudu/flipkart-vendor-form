@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body>
+        <h1 align="center">fliplart vendor form</h1>
+
+        <form action="#" method="post">
+            <div>
+                  <lable for="name">Name</lable></br>
+                   <input type="text" name="first name" id="name" placeholder="firstname">
+                  <input type="text" name="second name" id="name" placeholder="lastname">
+        </div>
+        <div>
+            <lable for="DOB">DOB</lable><br>
+            <input type="date" id="dob" name="dob" >
+
+        </div>
+
+        <div>
+            <label for="location">location</label><br>
+            <textarea  name="location" id="location" col="30" rows="10"></textarea><br>
+        </div>
+
+        <div>
+            <label for="email">Email</label><br>
+            <input type="email" name="email" id="email">
+        </div>
+
+        <div>
+            <label for="adharcard">Adharcard</label><br>
+            <input type="file" name="adharcard" id="adharcard">
+        </div>
+        <div>
+            <lable for="pancard">Pancard</lable><br>
+            <input type="tel" name="pancard" pattern="[A-Z] {5} [0-9] {4} [A-Z] {1}" id="pancard">
+        </div>
+        <div>
+            <lable for="sell">items to sell</lable>
+           <select name="items" id="items">
+            <option value="items to sell"  disabled selected>items to selected</option>
+            <otion value="shoes">shoes</otion>
+            <option value="car">car</option>
+            <option value="bike">bike</option>
+            <option value="phones">phones</option>
+           </select>
+        </div>
+        <div>
+            <label for="are u india">Are u in india</label>
+           yes: <input type="radio" name="india" id="india">
+           no: <input type="radio" name="india" id="india">
+        </div>
+        <div>
+            <label for="delevery"> delevey to</label>
+            <input type="checkbox" name="delevery">vizag
+            <input type="checkbox" name="delevery">vizinagaram
+            <input type="checkbox" name="delevery">parvathipuram
+        </div>
+          <div>
+            <input type="submit">
+            <input type="reset">
+          </div>
+    </form>
+       
+    </body>
+</html>
